@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+$mocha: #251d1d;
+$espresso: #181515;
+$froth: #5c4646;
+$forest: #327730;
+$lava: #a73729;
+$deep-ocean: #2b4f72;
+$ocean: #2a5e8f;
+$wave: #4e7fad;
+$ubuntu: "Ubuntu", sans-serif;
+
+@mixin box($thickness: 1px) {
+  border-radius: 5px;
+  border: $thickness solid $froth;
+}
